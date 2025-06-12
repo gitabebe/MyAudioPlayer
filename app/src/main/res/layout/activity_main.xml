@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#F0F4F8"
+    tools:context=".MainActivity">
+
+    <!-- Title for the app -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Audio Player"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Button for Audio 1 -->
+    <Button
+        android:id="@+id/button_audio1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Audio 1"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"
+        app:cornerRadius="12dp" />
+
+    <!-- Button for Audio 2 -->
+    <Button
+        android:id="@+id/button_audio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Audio 2"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"
+        app:cornerRadius="12dp" />
+
+    <!-- Button for Audio 3 -->
+    <Button
+        android:id="@+id/button_audio3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Audio 3"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"
+        app:cornerRadius="12dp" />
+
+    <!-- Button to Stop Playback -->
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop All Audio"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"
+        app:cornerRadius="12dp" />
+
+</LinearLayout>
